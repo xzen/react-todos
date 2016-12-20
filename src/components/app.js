@@ -6,8 +6,6 @@ export default class App extends React.Component {
   constructor (props) {
     super(props);
 
-    console.log(todos);
-
     this.state = {
       todos
     };
