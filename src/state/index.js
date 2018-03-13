@@ -8,4 +8,4 @@ const todos = [{
   isCompleted: false
 }];
 
-export { todos };
+export default todos;

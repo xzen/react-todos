@@ -1,6 +1,6 @@
 import React from 'react';
-import TodosList from '../todo-list/todos-list';
-import { todos } from '../data/todos';
+import TodosList from './todos-list/todos-list';
+import todos from '../state';
 
 export default class App extends React.Component {
   constructor (props) {
